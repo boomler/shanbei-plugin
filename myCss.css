@@ -1,0 +1,101 @@
+ #inner-article {
+     position: relative;
+     top: 30px;
+     /*border: 1px solid red;*/
+     overflow: hidden;
+     min-height: 400px;
+ }
+ 
+ #inner-article #article {
+     position: relative;
+ }
+ 
+ #main-content {
+     width: 100%;
+     padding: 20px;
+     min-width: 640px;
+     /*border: 1px solid red;*/
+ }
+ 
+ #article {
+     width: 400px;
+     /*border: 1px solid #000;*/
+     width: 100% !important;
+ }
+ 
+ #my-pages {
+     width: 100%;
+     height: 50px;
+     /*border: 1px solid #00FF00;*/
+     margin-top: 20px;
+     padding-top:20px;
+     background-color: #eee;
+ }
+ #my-pages ul{
+ 	text-align:center;
+ }
+ #my-pages ul li {
+     list-style: none;
+   
+     display:inline;
+     border: 1px solid #1a6795;
+     border-radius: 5px;
+     line-height: 20px;
+     padding:0 8px;
+     margin-right:5px;
+     text-align: center;
+     cursor: pointer;
+ }
+ 
+ #my-pages ul li:hover {
+     background-color: #1a6795;
+ }
+ /*翻译弹框CSS*/
+ 
+ #translate * {
+     margin: 0;
+     padding: 0;
+     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+ }
+ 
+ #translate {
+     border: 1px solid #ddd;
+     width: 130px;
+     min-height: 160px;
+     padding: 10px;
+     padding-bottom: 20px;
+     position: fixed;
+     display: none;
+     background-color: #fff;
+ }
+ 
+ #translate h6 {
+     font-weight: 600;
+ }
+ 
+ .translate-word {
+     font-weight: 600;
+     line-height: 25px;
+     font-size: 18px;
+     border-bottom: 2px solid #eee;
+ }
+ /*    .audio-play audio{
+    	visibility: hidden;
+    }*/
+ 
+ .audio-play {
+     position: absolute;
+     right: 5px;
+     bottom: 5px;
+     text-align: center;
+     width: 90px;
+ }
+ 
+ .audio-play span {
+     font-size: 12px;
+     color: #444;
+ }
+ 
+ .audio-play img:hover {
+     cursor: pointer;
+ }
